@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!--
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/arraw" >
+    </TextView>
+    -->
+    <!-- 自定义actionbar的显示 -->
+
+    <TextView
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1E90FF"
+        android:gravity="center"
+        android:text="@string/register" >
+    </TextView>
+
+    <ImageView
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:gravity="center"
+        android:layout_alignLeft="@id/action_bar"
+        android:background="@drawable/location" >
+    </ImageView>
+
+</RelativeLayout>
